@@ -1,0 +1,321 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+}
+.right {
+  font-size: larger;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgba(255, 255, 0, 0.849);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+nav ul li a:hover {
+  color: aqua;
+}
+#contact{
+  font-size: 37px;
+}
+.left {
+  font-size: 2rem;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+.firstsection > div {
+  width: 40%;
+}
+.leftsection {
+  font-size: 3rem;
+  margin-left: 100px;
+}
+.rightsection img {
+  width: 60%;
+  border-radius: 5%;
+  margin: 20px 0;
+  box-shadow: 0 0 10px yellow, 0 0 15px yellow, 0 0 50px yellow;
+}
+.rightsection img:hover {
+  box-shadow: 0 0 15px yellow, 0 0 5px yellow, 0 0 70px yellow;
+}
+.name {
+  color: yellow;
+  font-family: cursive;
+}
+.gradient {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  color: #2196f3;
+  cursor: pointer;
+  text-wrap: nowrap;
+  margin-left: 90px;
+}
+nav a.gradient:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
+}
+#element {
+  color: yellow;
+}
+#bar {
+  padding-left: 2px;
+}
+.social a {
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  border: 0.2rem solid color(blue);
+  font-size: 3rem;
+  border-radius: 50%;
+  color: yellow;
+  margin-top: 2rem;
+  transition: 0.3s ease;
+}
+.social a:hover {
+  color: black;
+  transform: scale(1.3) translateY(-5px);
+  box-shadow: 0 0 25px yellow;
+  background: yellow;
+}
+.button {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 9.6px 32px;
+  border-radius: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.2s;
+  color: black;
+  margin-top: 20px;
+}
+.button:hover {
+  color: #255784;
+  background: yellow;
+  box-shadow: 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow;
+}
+.sec2 {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 620px;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.skills {
+  padding: 0 20px;
+  width: 100%;
+  max-width: 600px;
+}
+.skill-name {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.bar {
+  height: 14px;
+  background: #282828;
+  border-radius: 4px;
+}
+.per {
+  height: 14px;
+  background: rgba(255, 255, 0, 0.921);
+  border-radius: 3px;
+  position: relative;
+}
+.new {
+  justify-content: center;
+  padding-top: 140px;
+  align-items: center;
+  font-size: 50px;
+  font-style: normal;
+  margin-left: 145px;
+}
+.section3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+}
+.mypic img {
+  width: 40%;
+  border-radius: 5%;
+  margin: 20px 0;
+  box-shadow: 0 0 10px yellow, 0 0 15px yellow, 0 0 50px yellow;
+}
+.mypic img:hover {
+  box-shadow: 0 0 15px yellow, 0 0 5px yellow, 0 0 70px yellow;
+}
+.aboutme {
+  margin-right: 200px;
+  font-size: 30px;
+  margin-left: 145px;
+}
+#about {
+  font-size: 47px;
+}
+.button1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 9.6px 32px;
+  border-radius: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.2s;
+  color: black;
+  margin-top: 20px;
+  margin-left: 13px;
+}
+.button1:hover {
+  color: #255784;
+  background: yellow;
+  box-shadow: 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow;
+}
+.form1 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form1 form {
+  width: 670px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  background: gray;
+ 
+  box-shadow: 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow;
+}
+.form1 form h4 { 
+  font-weight: 500;
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+}
+.form1 form input {
+  width: 290px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid white;
+}
+.form1 form input::placeholder {
+  color: white;
+}
+.form1 form #lastname,
+.form1 form #mobile{
+  margin-left: 20px;
+}
+.form1 form h4{
+  color: white;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 20px;
+}
+.form1 form textarea{
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 80px;
+  max-height: 80px;
+}
+.form1 form #button2{
+  border: none;
+  background: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  width: 100px;
+  padding: 0;
+  margin-right: 500px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+.form1 form #button2:hover{
+  opacity: 0.7;
+}
+#txt{
+  font-size: 35px;
+}
+.footer{
+  background-color: #0c0f14;
+  display: flex;
+  
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+.footer ul{
+  list-style: none;
+}
+.footer>div{
+  width: 223px;
+}
+footer .footer-rights{
+  text-align: center;
+  color: grey;
+}
+footer .footer-second ul li a{
+ text-decoration: none;
+ color: white;
+ padding: 10px;
+}
+footer .footer-second ul li a:hover{
+  color: aqua;
+}
